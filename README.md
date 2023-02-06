@@ -8,3 +8,6 @@ $ npm run test
 ```
 
 If in `sagas.ts` file you import from `redux-saga` instead of `typed-redux-saga/macro`, and replace the `yield*` with `yield`, the error will go away.
+
+
+The issue: https://github.com/agiledigital/typed-redux-saga/issues/680
